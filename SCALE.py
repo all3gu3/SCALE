@@ -118,13 +118,13 @@ B1 = pygame.image.load("B1.png")
 B1 = pygame.transform.scale(B1, (60,30))
 
 N1 = pygame.image.load("N1.png")
-N1 = pygame.transform.scale(N1, (130,65))
+N1 = pygame.transform.scale(N1, (135,68))
 
 N2 = pygame.image.load("N2.png")
-N2 = pygame.transform.scale(N2, (130,65))
+N2 = pygame.transform.scale(N2, (135,68))
 
 N3 = pygame.image.load("N3.png")
-N3 = pygame.transform.scale(N3, (130,65))
+N3 = pygame.transform.scale(N3, (135,68))
 
 B3 = pygame.image.load("B3.png")
 B3 = pygame.transform.scale(B3, (60,30))
@@ -263,11 +263,11 @@ while True:
     screen.blit(minus, (230,420))#Imagen
     screen.blit(minus2, (230,450))#Imagen
     if(nivel==1):
-        screen.blit(N1,(100,485))
+        screen.blit(N1,(100,484))
     elif(nivel==2):
-        screen.blit(N2,(100,485))
+        screen.blit(N2,(100,484))
     elif(nivel==3):
-        screen.blit(N3,(100,485))
+        screen.blit(N3,(100,484))
     #####################################################################
     # DECLARACIÓN DE ETIQUETAS
     #####################################################################
